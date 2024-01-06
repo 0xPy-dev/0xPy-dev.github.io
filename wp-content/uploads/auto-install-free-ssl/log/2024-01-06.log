@@ -1,0 +1,51 @@
+2024-01-06 01:19:57 [error] cURL error 6: Could not resolve host: www.my-site-03-01-24.loc
+
+ File: C:\Users\user\OSPanel\domains\my-site-03-01-24.loc\wp-content\plugins\auto-install-free-ssl\FreeSSLAuto\src\Admin\Factory.php
+ Line number: 950
+
+
+
+2024-01-06 01:20:12 [info] www.my-site-03-01-24.loc is offline. Skipping it.
+
+2024-01-06 01:20:15 [info] C:/Users/user/OSPanel/domains/my-site-03-01-24.loc is offline. Skipping it.
+
+2024-01-06 01:20:15 [info] Начинаем регистрацию нового аккаунта
+
+2024-01-06 01:20:15 [info] Отправляем регистрацию на сервер Let's Encrypt™
+
+2024-01-06 01:20:16 [info] Отправляем подписанный запрос на https://acme-v02.api.letsencrypt.org/acme/new-acct
+
+2024-01-06 01:20:17 [info] kid: https://acme-v02.api.letsencrypt.org/acme/acct/1501736776
+
+2024-01-06 01:20:17 [info] Поздравляем! Новый аккаунт успешно зарегистрирован.
+
+2024-01-06 01:20:17 [info] Генерация SSL для my-site-03-01-24.loc
+
+2024-01-06 01:20:17 [info] Массив доменов представлен ниже: 
+
+2024-01-06 01:20:17 [info] <pre>Array
+(
+    [0] =&gt; my-site-03-01-24.loc
+)
+</pre>
+
+2024-01-06 01:20:17 [info] Начинаем процесс генерации SSL сертификата с ACME V2.
+
+2024-01-06 01:20:17 [info] Запрашиваем испытания для массива доменов.
+
+2024-01-06 01:20:19 [info] Отправляем подписанный запрос на https://acme-v02.api.letsencrypt.org/acme/new-order
+
+2024-01-06 01:20:20 [error] Sorry, the Let's Encrypt™ server response (400) is unexpected. The complete server response is given below.
+
+2024-01-06 01:20:20 [error] <pre>Array
+(
+    [type] =&gt; urn:ietf:params:acme:error:rejectedIdentifier
+    [detail] =&gt; Error creating new order :: Cannot issue for "my-site-03-01-24.loc": Domain name does not end with a valid public suffix (TLD)
+    [status] =&gt; 400
+)
+</pre>
+
+2024-01-06 01:20:20 [error] Closing the connection
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
